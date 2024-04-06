@@ -1,0 +1,24 @@
+  /* CSS for title animation */
+  @keyframes titleAnimation {
+    0% {
+        content: "Welcome";
+    }
+    25% {
+        content: "Welcome.";
+    }
+    50% {
+        content: "Welcome..";
+    }
+    75% {
+        content: "Welcome...";
+    }
+    100% {
+        content: "Welcome";
+    }
+  }
+  
+  h1::after {
+    content: "Welcome";
+    animation: titleAnimation 2s infinite;
+  }
+  

@@ -1,0 +1,36 @@
+/* Estilos para el menú y el encabezado */
+header {
+    background-image: url('./img/star.gif'); /* Cambiar 'background.jpg' por la ruta de tu imagen de fondo */
+    background-size: cover;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  #titulo {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    transition: color 0.5s ease-in-out;
+  }
+  
+

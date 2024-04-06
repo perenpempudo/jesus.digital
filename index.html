@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="title.css">
+    <title>jesus.digital</title>
+    <!-- Agrega el enlace al icono -->
+    <link rel="icon" href="./img/20.ico" type="image/x-icon">
+
+    <script>
+      // Función para mostrar un mensaje de advertencia
+      function mostrarAdvertencia() {
+          alert("¡No se permite el clic derecho!");
+      }
+      
+      // Función para evitar el clic derecho
+      function evitarClicDerecho(e) {
+          if (e.button == 2) { // 2 representa el clic derecho
+              mostrarAdvertencia();
+              e.preventDefault(); // Evita que se ejecute la acción predeterminada del clic derecho
+              return false;
+          }
+      }
+      
+      // Agregar el evento para evitar el clic derecho
+      document.addEventListener('contextmenu', evitarClicDerecho);
+      </script>
+
+   </head>
+
+
+    <body background=./img/star.gif>
+      <script src="script.js"></script>
+
+
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <marquee bgcolor="black"><img src="./img/18.png" width="200" height="65" alt="10"></marquee>
+    </main>
+
+  
+<center>
+  <!-- Inicio. radio hosting USAstreams.com html5 player -->
+<!-- Licencia: GRATIS-XDF4543ERF -->
+<iframe name="contenedorPlayer" class="cuadroBordeado" allow="autoplay" width="420px" height="140px" marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no  src="https://cp.usastreams.com/pr2g/APPlayerRadioHTML5.aspx?stream=https://whmsonic.playerfullhd.com:7062/;&fondo=12&formato=aacp&color=3&titulo=2&autoStart=20&vol=5&tipo=22&nombre=JESUS.DIGITAL&botonPlay=1&server=https://whmsonic.playerfullhd.com:7062/index.htmlCHUMILLASsid=1"></iframe>
+<!-- En players responsive puede modificar el weight a sus necesidades, Por favor no modifique el resto del codigo para poder seguir ofreciendo este servicio gratis  -->
+<!-- Fin. USAstreams.com html5 player -->
+<br>
+<img src="./img/ban.jpeg" alt="Jesus.digital" width="400" height="200">
+</center>
+</body>
+</html>
